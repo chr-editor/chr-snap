@@ -1,6 +1,6 @@
 name: chr
 base: core24
-version: "0.81.1"
+version: "0.82.1"
 license: BSL-1.0
 contact:
   - chr@istoph.de
@@ -84,7 +84,7 @@ parts:
     meson-parameters:
       - -Dprefix=/usr
       - -Dsyntax_highlighting=true
-      - -Dversion=0.81.1~snap
+      - -Dversion=0.82.1~snap
       - -Dtests=false
     build-environment:
       - PKG_CONFIG_PATH: >
